@@ -1,0 +1,85 @@
+.download {
+    max-width: 600px;
+    width: 100%;
+    margin: 0 auto;
+    color: #2C2C2C;
+    font-family: 'Inter', sans-serif;
+
+    h2 {
+        margin-bottom: 25px;
+    }
+
+    input {
+        width: 100%;
+        height: 35px;
+        border-radius: 30px;
+        outline: none;
+        border: none;
+        padding-left: 20px;
+        margin-bottom: 15px;
+        font-size: 16px;
+
+        &::placeholder {
+            font-size: 18px;
+            font-weight: bold;
+            color: #868686;
+        }
+    }
+
+    .send_btn {
+        display: block;
+        max-width: 400px;
+        cursor: pointer;
+        width: 100%;
+        margin: 0 auto;
+        height: 40px;
+        font-family: 'Inter', sans-serif;
+        text-transform: uppercase;
+        background-color: #EA1D24;
+        border-radius: 30px;
+        font-weight: bold;
+        font-size: 18px;
+        color: #fff;
+        outline: none;
+        border: none;
+    }
+
+    .student {
+        width: 40%;
+        height: 35px;
+        border-radius: 30px;
+        outline: none;
+        border: none;
+        padding: 0 5px 0 15px;
+        margin: 0 10px 15px 0;
+    }
+
+    textarea {
+        width: 100%;
+        padding: 10px 0 0 20px;
+        margin-bottom: 15px;
+        border-radius: 30px;
+        outline: none;
+        border: none;
+        
+        &::placeholder {
+            font-size: 18px;
+            font-weight: bold;
+            color: #868686;
+        }
+    }
+
+    .students_btn {
+        width: 100%;
+        max-width: 35px;
+        height: 35px;
+        border-radius: 50%;
+        border: none;
+        line-height: 12px;
+        cursor: pointer;
+    }
+
+    .wrapper_students {
+        display: flex;
+    }
+}
